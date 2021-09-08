@@ -273,6 +273,16 @@
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
+        <fullName>Lifetime_Donations__c</fullName>
+        <externalId>false</externalId>
+        <label>Lifetime Donations</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Currency</type>
+    </fields>
+    <fields>
         <fullName>Name</fullName>
         <trackFeedHistory>true</trackFeedHistory>
     </fields>
@@ -350,6 +360,21 @@
         <filterScope>Mine</filterScope>
         <label>My Accounts</label>
     </listViews>
+    <recordTypes>
+        <fullName>Donor</fullName>
+        <active>true</active>
+        <label>Donor</label>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Partner</fullName>
+        <active>true</active>
+        <label>Partner</label>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Vendor</fullName>
+        <active>true</active>
+        <label>Vendor</label>
+    </recordTypes>
     <searchLayouts>
         <customTabListAdditionalFields>ACCOUNT.NAME</customTabListAdditionalFields>
         <customTabListAdditionalFields>ACCOUNT.ADDRESS1_CITY</customTabListAdditionalFields>

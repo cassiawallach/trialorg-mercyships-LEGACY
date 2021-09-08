@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentAsset xmlns="http://soap.sforce.com/2006/04/metadata">
+    <isVisibleByExternalUsers>false</isVisibleByExternalUsers>
+    <language>en_US</language>
+    <masterLabel>Screen_Shot_20210908_at_120334_AM</masterLabel>
+    <originNetwork>Mercy Ships Customer Portal</originNetwork>
+    <relationships>
+        <network>
+            <access>VIEWER</access>
+            <name>Mercy Ships Customer Portal</name>
+        </network>
+        <workspace>
+            <access>INFERRED</access>
+            <isManagingWorkspace>true</isManagingWorkspace>
+            <name>sfdc_asset_company_assets</name>
+        </workspace>
+    </relationships>
+    <versions>
+        <version>
+            <number>1</number>
+            <pathOnClient>Screen Shot 2021-09-08 at 12.03.34 AM.png</pathOnClient>
+        </version>
+    </versions>
+</ContentAsset>

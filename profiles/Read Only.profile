@@ -12569,9 +12569,6 @@
     </fieldPermissions>
     <layoutAssignments>
         <layout>Account-Account Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Account-Account Layout</layout>
         <recordType>Account.Donor</recordType>
     </layoutAssignments>
     <layoutAssignments>
@@ -12581,6 +12578,9 @@
     <layoutAssignments>
         <layout>Account-Account Layout</layout>
         <recordType>Account.Vendor</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Account-Partner Account Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Asset-Asset Layout</layout>

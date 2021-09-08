@@ -192,6 +192,18 @@
         <type>Lookup</type>
     </fields>
     <fields>
+        <fullName>Contract_ID__c</fullName>
+        <caseSensitive>true</caseSensitive>
+        <externalId>false</externalId>
+        <label>Contract ID</label>
+        <length>18</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
+    <fields>
         <fullName>Description</fullName>
         <trackFeedHistory>false</trackFeedHistory>
         <trackTrending>false</trackTrending>
@@ -309,6 +321,56 @@
         <trackFeedHistory>false</trackFeedHistory>
         <trackTrending>false</trackTrending>
         <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Team__c</fullName>
+        <externalId>false</externalId>
+        <label>Team</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Backhaul</fullName>
+                    <default>false</default>
+                    <label>Backhaul</label>
+                </value>
+                <value>
+                    <fullName>CORE</fullName>
+                    <default>false</default>
+                    <label>CORE</label>
+                </value>
+                <value>
+                    <fullName>Front Haul</fullName>
+                    <default>false</default>
+                    <label>Front Haul</label>
+                </value>
+                <value>
+                    <fullName>NSC</fullName>
+                    <default>false</default>
+                    <label>NSC</label>
+                </value>
+                <value>
+                    <fullName>Retail</fullName>
+                    <default>false</default>
+                    <label>Retail</label>
+                </value>
+                <value>
+                    <fullName>SmallCell</fullName>
+                    <default>false</default>
+                    <label>SmallCell</label>
+                </value>
+                <value>
+                    <fullName>VICC</fullName>
+                    <default>false</default>
+                    <label>VICC</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
     </fields>
     <fields>
         <fullName>TotalOpportunityQuantity</fullName>
